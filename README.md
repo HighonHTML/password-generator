@@ -1,4 +1,4 @@
-# PASSWORD GENERATOR APP
+# Password Generator App
 
 A simple password generator app that allows you generate a password based on the selected inclusion options and the length provided.
 
