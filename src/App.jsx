@@ -65,13 +65,13 @@ function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { password, length, passwordCriteria } = state;
   const strength =
-    length > 15
+    password.length > 15
       ? "strong"
-      : length > 10
+      : password.length > 10
       ? "medium"
-      : length > 5
+      : password.length > 5
       ? "weak"
-      : length > 0
+      : password.length > 0
       ? "veryWeak"
       : null;
   function handleGetPassword() {
