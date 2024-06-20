@@ -12,5 +12,6 @@ export default function generatePassword(length, passwordCriteria) {
     });
   }
   shuffleArray(password);
+  password = password.splice(0, length)
   return password.join("");
 }
