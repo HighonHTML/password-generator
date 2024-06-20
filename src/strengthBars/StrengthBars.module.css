@@ -1,0 +1,30 @@
+.strengthBars {
+  display: flex;
+  gap: 0.5em;
+  height: 100%;
+  align-items: center;
+}
+
+.strengthBars > div {
+  width: 0.7em;
+  height: 60%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.strong:nth-child(-n + 4) {
+  background-color: greenyellow;
+  border: none;
+}
+.medium:nth-child(-n + 3) {
+  background-color: orange;
+  border: none;
+}
+.weak:nth-child(-n + 2) {
+  background-color: #E97451;
+  border: none;
+}
+.veryWeak:nth-child(-n + 1) {
+  background-color: #EE4B2B;
+  border: none;
+}
