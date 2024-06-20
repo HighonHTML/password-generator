@@ -1,1 +1,7 @@
-A simple password generator that allows you to customize the length of the password and the type of characters to include in the password.
+#PASSWORD GENERATOR APP
+
+A simple password generator app that allows you generate a password based on the selected inclusion options and the length provided.
+
+![](./src/assets/image1.png)
+
+![](./src/assets/image2.png)
